@@ -1,0 +1,15 @@
+{
+  "name": "tabula",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A browser spreadsheet with a real formula engine — one Cloudflare Worker, zero backend.",
+  "type": "module",
+  "scripts": {
+    "test": "node --test",
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy"
+  },
+  "devDependencies": {
+    "wrangler": "^4.0.0"
+  }
+}
